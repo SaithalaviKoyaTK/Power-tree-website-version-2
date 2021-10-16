@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- change title to company name -->    
+    <title>Power Tree</title>
+
+    <!-- link to css file -->
+    <link rel="stylesheet" href="index.css">
+
+    <!-- link to import multiple google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Poppins|Roboto" rel="stylesheet">
+
+</head>
+
+<!-- create an event to display different industries on mouse enter to element h6 with a class "industries" -->
+<body>
+
+    <header>
+        <nav>
+            <!-- image of company logo -->
+            <img src="power-tree-logo.jpg" alt="logo">
+
+            <div class="nav-el-container">
+                <!-- navigation elements other than logo -->
+                <button class="nav-els home-el hover-el" onclick="homeEl()">home</button>
+                <button class="nav-els products-el hover-el" onclick="productsEl()">products</button>
+                <button class="nav-els contact-el hover-el" onclick="contactEl()">contact</button>
+                <button class="nav-els testimonials-el hover-el" onclick="testimonialsEl()">testimonials</button>             
+            </div>
+
+            <div class="sub-products">
+                <!-- <button class="briquette-rectangle"></button> -->
+                <button class="subProduct-briquette hover-el" onclick="briquetteEl()">
+                    Biomass Briquette
+                </button>
+                <!-- <button class="pellet-rectangle"></button> -->
+                <button class="subProduct-pellet hover-el" onclick="pelletEl()">
+                    Biomass Pellet
+                </button>
+            </div>
+
+            
+        </nav>
+        
+               
+    </header>
+    <main>
+
+        <!-- company caption -->
+        <h1 class="caption">
+            White coal is what
+we manufacture 
+        </h1>
+        
+        <!-- client information -->
+        <h6 class="client-el">
+            Our clientele are from
+        </h6>
+
+        <!-- industry information -->
+
+        <h6 class="industry-el"></h6>
+
+        <img src="briquette-pellet.jpg" alt="Biomass" class="biomassPic-el">
+        
+    </main>
+    <footer></footer>
+
+    <!-- link to js file -->
+    <script src="index.js"></script>
+
+</body>
+</html>
