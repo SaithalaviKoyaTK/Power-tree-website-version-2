@@ -2,8 +2,8 @@
 document.querySelector(".title").innerHTML = "Power Tree"
 document.querySelector(".home-el").innerHTML = "home"
 document.querySelector(".products-el").innerHTML = "products"
+document.querySelector(".clients-el").innerHTML = "clients"
 document.querySelector(".contact-el").innerHTML = "contact"
-document.querySelector(".testimonials-el").innerHTML = "testimonials"
 document.querySelector(".subProduct-briquette").innerHTML = "Biomass Briquette"
 document.querySelector(".subProduct-pellet").innerHTML = "Biomass Pellet"
 document.querySelector(".description").innerHTML = "White coal is what\n\twe manufacture"
@@ -37,7 +37,7 @@ function topZeroSubProduct() {
 function homeEl() {
     document.querySelector(".description").innerHTML = "White coal is what\n\twe manufacture"
     // when any button other than product is clicked, biomass briquette and biomass pellet buttons should be hidden.
-        hideSubProduct()         
+        hideSubProduct() 
 }
 
 /* create a function to display and hide 'biomass briquette' and 'biomass pellet' buttons on 
@@ -48,8 +48,8 @@ function productsEl() {
         document.querySelector(".subProduct-pellet").style.top == "0px"
     ) {
         displaySubProduct()
-    } else  {
-        topZeroSubProduct()
+    } else {
+        topZeroSubProduct() 
     }
 }
 
@@ -72,16 +72,16 @@ function pelletEl() {
 
 // when contact button is clicked, <main><h1>'s inner text should change to description on contact
 
-function contactEl() {
-    document.querySelector(".description").innerHTML = "contact"
+function clientsEl() {
+    document.querySelector(".description").innerHTML = "clients"
 
     // when any button other than product is clicked, biomass briquette and biomass pellet buttons should be hidden.
         hideSubProduct() 
 }
 
 // when testimonials button is clicked, <main><h1>'s inner text should change to description on testimonials
-function testimonialsEl() {
-    document.querySelector(".description").innerHTML = "testimonials"
+function contactEl() {
+    document.querySelector(".description").innerHTML = "contact"
 
     // when any button other than product is clicked, biomass briquette and biomass pellet buttons should be hidden.
             hideSubProduct() 
