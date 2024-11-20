@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 100%;
+}
+
+body {
+  background: #fa892e;
+}
+
+nav, .logo-el, .nav-el-container, .sub-products, .description, .biomassPic-el, .client-el, .industry-el {
+  position: absolute;
+}
+
+/* navigation bar */
+nav {
+  background: #fffffa;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 10%;
+  left: 0;
+  top: 0;
+  }
+
+/* image of logo */
+.logo-el {
+  width: auto;
+  height: 90%;
+  left: 10%;
+}
+
+/* navigation elements container*/
+.nav-el-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 60%;
+  right: 0;
+}
+
+/* navigation elements*/
+.nav-els {
+  border: none;
+  background: none;
+  font-family: Poppins;
+  font-size: 24px;
+  color: rgba(51, 40, 29, 0.75);
+}
+
+/* sub products elements */
+.sub-products {
+  height: 150px;
+  left: 41.5%;
+  z-index: -1;
+}
+
+.subProduct-briquette, .subProduct-pellet {
+  border: none;
+  border-radius: 0px 0px 8px 8px;
+  background: #fffffa;
+  position: relative;
+  width: 300px;
+  height: 60px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  color: rgba(51, 40, 29, 0.75);
+}
+
+/* while hovering on a nav element, it's color should change to #fa892e and it's cursor should change to pointer  */
+.hover-el:hover {
+  color: #fa892e;
+  cursor: pointer;
+}
+
+/* <main> <h1> element's content */
+.description {
+  width: 555px;
+  height: 150px;
+  left: 112px;
+  top: 339px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 75px;
+  color: #33281d;
+}
+
+/* Our clientele are from */
+.client-el {
+  width: 230px;
+  height: 28px;
+  left: 112px;
+  top: 532px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+  color: #021718;
+}
+
+/* industry */
+.industry-el {
+  width: 218px;
+  height: 35px;
+  left: 348px;
+  top: 526px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 35px;
+  color: #fffafa;
+}
+
+.biomassPic-el {
+  width: 32.552vw;
+  height: auto;
+  left: 58.593vw;
+  top: 140px;
+  filter: drop-shadow(0px 24px 48px rgba(0, 0, 0, 0.25));
+  border-radius: 8px;
+  z-index: -10;
+}
+

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- title of website -->    
+    <title class="title"></title>
+
+    <!-- link to css file -->
+    <link rel="stylesheet" href="index.css">
+
+    <!-- link to import multiple google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Poppins|Roboto" rel="stylesheet">
+    <link rel=”stylesheet” href=”https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css”rel=”nofollow” integrity=”sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I” crossorigin=”anonymous”>    
+</head>
+
+<body>
+    <header>
+        <nav>
+            <!-- logo image on navigation bar-->
+            <img src="power-tree-logo.jpg" alt="logo" class="logo-el">
+
+            <!-- navigation elements on navigation bar-->
+            <div class="nav-el-container">
+                <button class="nav-els home-el hover-el" onclick="homeEl()"></button>
+                <button class="nav-els products-el hover-el" onclick="productsEl()"></button>
+                <button class="nav-els clients-el hover-el" onclick="clientsEl()"></button>
+                <button class="nav-els contact-el hover-el" onclick="contactEl()"></button>             
+            </div>
+            
+            <!-- <sub element of navigation element with class products-el> -->
+            <div class="sub-products">
+                <button class="subProduct-briquette hover-el" onclick="briquetteEl()"></button>
+                <button class="subProduct-pellet hover-el" onclick="pelletEl()"></button>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- description of each element on navigation bar -->
+        <h1 class="description"></h1>
+        
+        <!-- client information -->
+        <h6 class="client-el"></h6>
+
+        <!-- industry information -->
+        <h6 class="industry-el"></h6>
+
+        <img src="briquette-pellet.jpg" alt="Biomass" class="biomassPic-el">
+        
+    </main>
+    <footer></footer>
+
+    <!-- link to js file -->
+    <script src="index.js"></script>
+    <script src=”https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js” integrity=”sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo” crossorigin=”anonymous”></script>
+    <script src=”https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js” integrity=”sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/” crossorigin=”anonymous”></script>
+</body>
+</html>
